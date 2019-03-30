@@ -26,16 +26,12 @@ h1 {
 
 h2 {
     color:#393939;
-    margin-bottom:1px;
+    margin-bottom:10px;
     font-weight: 500;
 }
 
 #portrait {
     margin-bottom:20px;
-}
-
-h2 a{
-  color:#393939;
 }
 
 h3, h4, h5, h6 {
@@ -44,8 +40,16 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color:#39c;
-  text-decoration:none;
+    text-decoration:none;
+}
+
+h2 a {
+  color:#393939;
+}
+
+.paperlink {
+    color:#999;
+    text-decoration:none;
 }
 
 a:hover {
