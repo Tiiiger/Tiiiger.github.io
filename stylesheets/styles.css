@@ -123,14 +123,16 @@ header {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
-ul {
+header ul {
   list-style:none;
-  /* height:40px; */
+}
+
+ul {
   padding:0;
-  /* background: #f4f4f4; */
-  /* border-radius:5px; */
-  /* border:1px solid #e0e0e0; */
-  /* width:270px; */
+}
+
+.funding {
+  padding:0;
 }
 
 header li {
