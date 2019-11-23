@@ -19,17 +19,14 @@ h1 {
   margin-top: 20px;
   margin-bottom: 10px;
   line-height:1.1;
-}
-
-h1 {
   font-size:28px;
-  font-weight: 500;
+  font-weight: 800;
 }
 
 h2 {
     color:#393939;
     margin-bottom:0px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 p {
@@ -42,35 +39,25 @@ p {
 
 h3, h4, h5, h6 {
   color:#494949;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 a {
     text-decoration:none;
 }
 
-h2 a {
-  color:#393939;
-}
-
 .paperlink {
-    color:#999;
     text-decoration:none;
 }
 
 a:hover {
-  color:#069;
+  color:#800;
 }
 
 a small {
   font-size:11px;
-  color:#777;
   margin-top:-0.3em;
   display:block;
-}
-
-a {
-  color:#777;
 }
 
 .wrapper {
@@ -129,37 +116,31 @@ header {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
-header ul {
-  list-style:none;
-}
-
 ul {
+  list-style:none;
   padding:0;
 }
 
-header li {
-  /* width:89px; */
-  /* float:left; */
-  /* border-right:1px solid #e0e0e0; */
-  height:30px;
+ol {
+  padding:0;
 }
 
-/* header li:first-child a { */
-/*   border-radius:5px 0 0 5px; */
-/* } */
 
-/* header li:last-child a { */
-/*   border-radius:0 5px 5px 0; */
-/* } */
+header li {
+  width:25px;
+  height:25px;
+  float:left;
+  margin-right:10px;
+}
+
+a {
+  color:#777;
+}
 
 header ul a {
-  line-height:1;
   /* font-size:16px; */
-  color:#999;
   display:block;
-  /* text-align:center; */
   padding-top:6px;
-  height:34px;
 }
 
 section {
