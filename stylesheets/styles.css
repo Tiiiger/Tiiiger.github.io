@@ -6,10 +6,6 @@ body {
   font-weight:400;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  margin:0 0 20px;
-}
-
 p, ul, ol, table, pre, dl {
   margin:0 0 20px;
 }
@@ -17,9 +13,9 @@ p, ul, ol, table, pre, dl {
 h1 {
   color:#222;
   margin-top: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   line-height:1.1;
-  font-size:28px;
+  font-size:40px;
   font-weight: 800;
 }
 
@@ -34,6 +30,7 @@ p {
 }
 
 #portrait {
+    margin-top:5px;
     margin-bottom:20px;
 }
 
@@ -106,7 +103,7 @@ img {
 }
 
 header {
-  width:270px;
+  width:300px;
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
@@ -259,4 +256,10 @@ footer {
 /* Show the tooltip text when you mouse over the tooltip container */
 .tooltip:hover .tooltiptext {
   visibility: visible;
+}
+
+hr {
+  height:1px;
+  background: black;
+  margin-bottom: 20px;
 }
